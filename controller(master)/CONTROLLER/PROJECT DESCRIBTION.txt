@@ -1,0 +1,24 @@
+/*
+ * author : mostafa mohamed gomaa
+ * smart home project
+ * created in wednesday at 2:08:16 AM
+ */
+
+the project consists of two ATmega32 controllers the first one operates as controller and the second is connected with devices that will be controled according to the transmitted value from controller .
+
+sequence of application :
+
+1- the controller receives a value (command) from bluetooth module .
+
+2- the controller sends the received value to the devices cotroller .
+
+3- according to the received value , there is varity of actions that may be token :
+
+a) toggle green led
+b) toggle yelow led
+c) turn on motor with low speed
+d) turn on motor with medium speed
+e) turn on motor with high speed
+f) turn off the motor
+
+there is also a LCD in the controller's side to trace the sended command and its respond in the other side. 
