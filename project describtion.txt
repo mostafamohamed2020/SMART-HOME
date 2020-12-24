@@ -1,6 +1,6 @@
 /*
  * author : mostafa mohamed gomaa
- * smart home project
+ * smart home project based on bluetooth
  * created in wednesday at 2:08:16 AM
  */
 
